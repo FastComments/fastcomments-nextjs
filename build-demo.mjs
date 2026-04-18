@@ -21,7 +21,7 @@ sh('npm ci');
 sh('npm run build');
 
 sh('npm ci', EXAMPLE);
-sh('npx next build', EXAMPLE, { BUILD_DEMO: '1' });
+sh('./node_modules/.bin/next build', EXAMPLE, { BUILD_DEMO: '1' });
 
 rmSync(OUT, { recursive: true, force: true });
 renameSync(resolve(EXAMPLE, 'out'), OUT);
