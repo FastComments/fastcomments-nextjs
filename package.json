@@ -1,0 +1,52 @@
+{
+  "name": "fastcomments-nextjs",
+  "version": "1.0.0",
+  "description": "Next.js components for FastComments, a live commenting system.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "next",
+    "nextjs",
+    "react",
+    "vercel",
+    "ui",
+    "fastcomments",
+    "comments",
+    "commenting",
+    "live-chat",
+    "reviews"
+  ],
+  "homepage": "https://docs.fastcomments.com/guide-lib-nextjs.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FastComments/fastcomments-nextjs.git"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "next": "^13.0.0 || ^14.0.0 || ^15.0.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "dependencies": {
+    "fastcomments-typescript": "^3.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "typescript": "^6.0.2"
+  }
+}
