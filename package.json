@@ -1,6 +1,6 @@
 {
   "name": "fastcomments-nextjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Next.js components for FastComments, a live commenting system.",
   "type": "module",
   "main": "./dist/index.js",
