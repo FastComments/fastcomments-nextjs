@@ -26,6 +26,11 @@ Each component has its own route under `example/app/` that you can copy straight
 npm install fastcomments-nextjs
 ```
 
+## Requirements
+
+- Next.js 13, 14, 15, or 16
+- React 18 or 19
+
 ## Quick Start
 
 ```tsx
