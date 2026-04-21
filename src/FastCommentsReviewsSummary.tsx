@@ -10,6 +10,8 @@ export interface FastCommentsReviewsSummaryProps {
     urlId?: string;
     /** The region your account is in. EU customers should set to 'eu'. */
     region?: 'eu';
+    /** Set to true if embedding on a dark background. Auto-detected if not set. */
+    hasDarkBackground?: boolean;
 }
 
 type WidgetGlobal = {
