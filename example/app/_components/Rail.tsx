@@ -77,7 +77,7 @@ export default function Rail() {
                     <button type="button" className={`fc-theme-toggle__btn${theme === 'dark' ? ' is-active' : ''}`} onClick={() => setTheme('dark')}>Dark</button>
                 </div>
                 <div><code>npm i fastcomments-nextjs</code></div>
-                <a href="https://fastcomments.com" rel="noopener">fastcomments.com &nearr;</a>
+                <a href="https://fastcomments.com" rel="noopener">fastcomments.com ↗</a>
             </footer>
         </aside>
     );
