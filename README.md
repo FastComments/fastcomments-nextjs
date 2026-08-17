@@ -6,7 +6,7 @@ Works with the App Router and the Pages Router. All components are client compon
 
 ## Live Demo
 
-Try every widget live at <https://fastcomments.com/commenting-system-for-nextjs>.
+Try every widget live at <https://fastcomments.com/commenting-system-for-nextjs/>.
 
 ## Live Showcase
 
