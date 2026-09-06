@@ -4,6 +4,18 @@ A fast, full-featured live commenting widget for [Next.js](https://nextjs.org), 
 
 Works with the App Router and the Pages Router. All components are client components and can be dropped directly into a server component.
 
+## AI coding agents
+
+[![skills.sh](https://skills.sh/b/fastcomments/skills)](https://skills.sh/fastcomments/skills)
+
+Give your coding agent the FastComments context it needs - widgets, configuration, Secure SSO, the REST API, and the SDKs:
+
+```bash
+npx skills add fastcomments/skills
+```
+
+Works with Claude Code, Codex, Cursor, Copilot, Gemini, and every other agent the [skills CLI](https://github.com/vercel-labs/skills) supports.
+
 ## Live Demo
 
 Try every widget live at <https://fastcomments.com/commenting-system-for-nextjs/>.
